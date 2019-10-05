@@ -23,16 +23,24 @@ a {
 }
 
 a.wakashi {
-    width: 50px;
-    padding: 70px 100px;
-    transition: 1s ease;
-    opacity: 0.6;
+      position: relative;
+    display: block;
+    width: 100px;
+    z-index: 100;
+    transition: 0.5s;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+img{
+ width: 50px;
+    padding: 70px 100px;
+    transition: 1s ease;
+    opacity: 0.6;
+  
+}
 h1 {
     font-size: 3em;
     
