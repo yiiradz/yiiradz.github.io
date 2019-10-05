@@ -4,6 +4,10 @@ li{
      margin: 0 2vw;
   
 }
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
 
 a {
     text-decoration: none;
