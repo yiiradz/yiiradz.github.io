@@ -2,12 +2,19 @@
 li{
   list-style-type: none;
      margin: 0 2vw;
+     float: left;
+     margin: 0 0 0 50px;
+     font-weight: bold;
   
 }
-.nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 100px;
+  
+}
 
 a {
     text-decoration: none;
@@ -29,13 +36,4 @@ p {
 
 footer {
     
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
